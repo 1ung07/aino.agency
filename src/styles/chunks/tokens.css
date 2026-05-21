@@ -1,0 +1,35 @@
+:root {
+  --ch: 7.5;
+  --cols: 160;
+  --col: 36;
+  --rows: 60;
+  --letter-spacing: 0px;
+  --font-size: 12px;
+  --line-height: 15px;
+  --line: 15px;
+  --screen-height: 900;
+  --light: 245, 245, 240;
+  --dark: 24, 24, 24;
+  --site-bg:  rgb(24, 24, 24);
+  --site-text:rgb(245, 245, 240) ;
+  --strip-1: 8;
+  --strip-2: 28;
+  --strip-3: 48;
+  --strip-4: 68;
+  --strip-5: 88;
+  --strip-6: 108;
+  --strip-7: 128;
+  --strip-8: 148;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --ch: 8;
+    --cols: 48;
+    --col: 8;
+    --rows: 72;
+    --font-size: 12px;
+    --line-height: 16px;
+    --line: 16px;
+  }
+}

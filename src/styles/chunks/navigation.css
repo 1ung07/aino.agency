@@ -1,0 +1,48 @@
+html.js #nav {
+  opacity: 1;
+}
+
+#nav .menu-state,
+#nav .menu-close {
+  color: inherit;
+  text-transform: uppercase;
+}
+
+#nav > div.last .menu-close,
+#nav .mobile .menu-close {
+  margin-left: auto;
+}
+
+#nav > div.last button:last-child {
+  margin-left: auto;
+}
+
+body.menu-open #nav {
+  color: rgb(var(--light));
+}
+
+@media (max-width: 768px) {
+  #nav > div.last {
+    display: none;
+  }
+
+  #nav .mobile {
+    width: auto;
+    flex: 0 1 auto;
+    justify-content: flex-end;
+  }
+
+  #nav .mobile button,
+  #nav .mobile span {
+    padding: var(--line) var(--char2);
+    margin-top: calc(var(--line) * -1);
+    font-variation-settings:
+      "MONO" 1,
+      "wght" 500 !important;
+    display: block;
+  }
+
+  #nav .mobile .mobile-contact {
+    margin-right: 0;
+  }
+}

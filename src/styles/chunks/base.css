@@ -1,0 +1,49 @@
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html {
+  color-scheme: light;
+  --black-rgb: var(--light);
+  --white-rgb: var(--dark);
+  --black: rgb(var(--black-rgb));
+  --white: rgb(var(--white-rgb));
+  color: var(--site-text);
+  background: var(--site-bg);
+}
+
+html.dark {
+  color-scheme: dark;
+  --black-rgb: var(--light);
+  --white-rgb: var(--dark);
+  color: var(--black);
+  background: var(--white);
+}
+
+body {
+  color: var(--site-text);
+  background-color: var(--site-bg);
+}
+
+#root {
+  isolation: isolate;
+  background-color: var(--site-bg);
+}
+
+.app-shell {
+  min-height: 100dvh;
+  color: var(--site-text);
+  background-color: var(--site-bg);
+}
+
+#app,
+#footer,
+.mobile-container {
+  background-color: var(--site-bg);
+}
+
+#nav {
+  color: var(--site-text);
+}

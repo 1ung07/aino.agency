@@ -1,0 +1,13 @@
+.media-fill img,
+.media-fill video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image[style*="aspect-ratio"] img,
+.video[style*="aspect-ratio"] video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

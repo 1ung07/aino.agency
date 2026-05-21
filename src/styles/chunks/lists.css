@@ -1,0 +1,8 @@
+.casefooter {
+  color: var(--site-text);
+  background: var(--site-bg);
+}
+
+.linelist a {
+  color: inherit;
+}
