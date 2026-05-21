@@ -10,7 +10,7 @@ npm run dev
 npm run lint
 npm run build
 ```
-
+v
 ## Global Animation Wiring
 
 `src/components/Layout.jsx` initializes the global animation systems on route changes:
